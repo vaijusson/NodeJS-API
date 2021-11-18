@@ -1,0 +1,7 @@
+To run lint:
+    npm install eslint
+    add: "lint": "eslint" to package.json,
+    npm run lint -- --init
+
+tests:
+    npm insall -D mocha (testing fw) should (assertion fw) sinon (mocking fw)
