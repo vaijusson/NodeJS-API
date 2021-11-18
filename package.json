@@ -26,8 +26,7 @@
     ],
     "env": {
       "NODE_ENV": "development",
-      "PORT": 3000,
-      "MONGODB": "mongodb+srv://ckmobile:Hello123$@cluster0.lquhb.mongodb.net/node-api?retryWrites=true&w=majority"
+      "PORT": 3000      
     }
   },
   "devDependencies": {
