@@ -12,10 +12,10 @@ const bodyParser = require('body-parser');
 var MongoDB = '';
 if (process.env.ENV === 'Test') 
 {
-    MongoDB = "mongodb+srv://ckmobile:Hello123$@cluster0.lquhb.mongodb.net/node-api-test?retryWrites=true&w=majority";
+    MongoDB = "mongodb+srv://bla:bla@cluster0.lquhb.mongodb.net/node-api-test?retryWrites=true&w=majority";
 }
 else {
-    MongoDB = "mongodb+srv://ckmobile:Hello123$@cluster0.lquhb.mongodb.net/node-api?retryWrites=true&w=majority";
+    MongoDB = "mongodb+srv://bla:bla@cluster0.lquhb.mongodb.net/node-api?retryWrites=true&w=majority";
 }
 
 console.log(`DB is ${MongoDB}`);
